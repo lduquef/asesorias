@@ -19,9 +19,11 @@ def limites(a,b):
     count = 0
     for i in range(1,b):
         lc = lucas(i)
-        value = ((a<lc)and(lc<b))
+        value = ((a<=lc)and(lc<=b))
         if value:
             count +=1
     print(count)
 
-limites(2,40)
+a= int(input("ingrese limite inferior: "))
+b = int(input("ingrese limite superior: "))   
+limites(a,b)

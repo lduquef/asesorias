@@ -1,2 +1,5 @@
-def mifuncion(x):
-    print("hola mundo soy una función, llamada desde otro archivo: ",x)
+def mifuncion(x,y,z):
+    print(x+y+z)
+    
+def mifuncion2(x,y,z):
+    print(x-y-z)

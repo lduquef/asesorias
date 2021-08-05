@@ -1,4 +1,0 @@
-python -m pip install -U matplotlib
-pip install -U seaborn
-pip install -U scikit-learn
-pip install -U tensorflow
